@@ -65,6 +65,7 @@ ligatures and accented characters.
 %doc %{_texmfdistdir}/source/latex/relenc/relenc.ins
 %doc %{_texmfdistdir}/source/latex/relenc/t1renc.dtx
 %doc %{_texmfdistdir}/source/latex/relenc/t1rzcm.fdd
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -75,3 +76,5 @@ ligatures and accented characters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
