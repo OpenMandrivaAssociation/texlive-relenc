@@ -5,8 +5,8 @@
 # catalog-license lppl1
 # catalog-version undef
 Name:		texlive-relenc
-Version:	20110406
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	A "relaxed" font encoding
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relenc
