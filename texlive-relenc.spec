@@ -3,7 +3,7 @@ Version:	22050
 Release:	2
 Summary:	A "relaxed" font encoding
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relenc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/relenc
 License:	LPPL1
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/relenc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/relenc.doc.r%{version}.tar.xz
